@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cstyles.css">
+    <script src="main.js"></script>
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        .justify {
+            text-align: justify;
+        }
+
+        .about {
+            padding: 25px;
+            margin: 15px auto;
+            width: 100%;
+            max-width: 800px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .about p {}
+
+        h4 {
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+        }
+
+        .team {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .sitemap {
+            margin-left: 20px;
+
+        }
+
+        .sitemap a {
+            color: rgb(42, 172, 51);
+        }
+
+        .sitemap a:hover {
+            color: tomato;
+        }
+
+        .sitemap li {
+            list-style-type: circle;
+
+        }
+    </style>
+    <title>About Needy</title>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <h1 class="app-name"><span>N</span>eedy</h1>
+        </div>
+        <!-- <div class="user-info">
+            <span class="user-name">John Smith</span>
+            <img class="user-icon" src="asserts/user.png" alt="user Icon"/>
+        </div> -->
+    </header>
+
+    <div class="container">
+
+        <div class="about shadow justify">
+            <h4>Abstract</h4>
+            <p>
+                Needy is an innovative online platform designed to facilitate the seamless exchange of goods and 
+                services between individuals who have items to give and those in need. Our platform acts as a virtual bridge, 
+                connecting generous donors with individuals or families experiencing various forms of hardship. 
+                Through this digital hub, we aim to create a vibrant community of sharing, compassion, and support.
+            </p>
+            
+            <p>
+                This application will be able to show the available items and contact details of their owners
+                within a particular area.
+            </p>
+            <h4>Sitemap</h4>
+            <ul class="sitemap">
+
+                
+                    <li><a href="index.html">Home Page</a></li>
+               
+                    <li> <a href="search.php">Search For Items</a></li>
+                
+                    <li><a href="roomdetails.php">Item Details</a></li>
+               
+                    <li> <a href="login.php">Owner Login</a></li>
+                
+                    <li><a href="register.php">Owner Registration</a></li>
+                
+                    <li><a href="upload.php">Uplaod Items (Auth required)</a></li>
+                
+                    <li><a href="dashboard.php">Owner Dashboard (Auth required)</a></li>
+               
+                    <li> <a href="about.html">About Needy</a></li>
+            </ul>
+            <h4>Team Members</h4>
+            <ul class="team">
+                <li>D. Venkata Bhagavan</li>
+                <li>PG212202014</li>
+                <li>K. Deva Akhil</li>
+                <li>PG212202027</li>
+                <li>N. Sai Govinda Prasad</li>
+                <li>PG212202040</li>
+                <li>V. Sujini</li>
+                <li>PG212202063</li>
+                <li>V. Ajay Kumar</li>
+                <li>PG212202064</li>
+            </ul>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
